@@ -10,7 +10,7 @@ Menu in ra như sau(sự lựa chọn được lặp lại đến khi chọn 0):
 1. Nhập thông tin cá nhân
 2. Tính tổng
 3. Thông tin sinh viên các lớp
-0. Thoát
+0. Thoát \n
 +--------------------------------------------------------+
 
 Mời chọn :
