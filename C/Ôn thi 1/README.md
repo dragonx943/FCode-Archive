@@ -21,11 +21,15 @@ phím và in các thông tin vừa nhập ra màn hình. (1,5 điểm)
 Bài 2: Nhập 1 số nguyên n từ bàn phím (1,5 điểm)
 Tính tổng S = 1 + 2 + 3 + …. n (Tính tổng các số từ 1 cho đến số n vừa nhập)
 Bài 3: Xây dựng chương trình như sau:
+
 +-------- Thông tin Sinh Viên các lớp -------+
+
 Mời nhập tổng lớp:
 Nhập mảng số lượng SV các lớp : ….
 (Nhập 1.5 điểm)
+
 +------ Xuất thông tin Sinh Viên ------ +
+
 Số lượng các lớp là : …… (0,5 điểm )
 Liệt kê vị trí các lớp có số lượng SV nhỏ hơn 30 :…… (1 điểm)
 Vị trí các lớp có kích cỡ sinh viên nhỏ nhất là : ….. (1 điểm)
