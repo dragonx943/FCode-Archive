@@ -7,10 +7,12 @@ Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
 Menu in ra như sau(sự lựa chọn được lặp lại đến khi chọn 0): (2.5 điểm)
 
 +--------------------------Menu------------------------+
+
 1. Nhập thông tin cá nhân
 2. Tính tổng
 3. Thông tin sinh viên các lớp
-0. Thoát \n
+0. Thoát
+
 +--------------------------------------------------------+
 
 Mời chọn :
