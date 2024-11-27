@@ -38,11 +38,9 @@ void nhapThongTinCaNhan() {
 
 int tinhTong(int n) {
 	int tong;
-	
 	for (int i=1; i <= n; i++) {
 		tong+=i;
 	}
-	
 	printf("Tong tu 1 den %d la: %d\n", n, tong);
 }
 
@@ -97,8 +95,8 @@ int main() {
                 break;
             case 2:
             	int n;
-				printf("Nhap so n: ");
-				scanf("%d", &n);
+		printf("Nhap so n: ");
+		scanf("%d", &n);
                 tinhTong(n);
                 break;
             case 3:
