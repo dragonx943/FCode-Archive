@@ -2,7 +2,7 @@
 
 **- Đây là thư mục chứa toàn bộ file code mà tôi đã làm (cẻm ơn chát gờ pê tê) / tạo ra khi học tại trường F với bộ môn lập trình C cơ bản**
 
-**- Các code này đã được confirm là hoạt động tốt trên Dev C++ (phiên bản 5.11 với TDM-GCC 4.9.2 64-bit Release)
+**- Các code này đã được confirm là hoạt động tốt trên Dev C++ (phiên bản 5.11 với TDM-GCC 4.9.2 64-bit Release)**
 
 **- Có một số File / tệp chưa được điền tên (Có tiêu đề là Untitled) thì là do tôi chưa tìm được đề bài của nó để phân chia thư mục / do tôi ngẫu hứng tạo ra và đã quên nó 🐧**
 
