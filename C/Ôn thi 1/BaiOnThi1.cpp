@@ -80,7 +80,7 @@ void thongTinSinhVienCacLop () {
 }
 
 int main() {
-	int luaChon;
+    int luaChon;
     do {
         printf("+--------------------------Menu------------------------+\n");
         printf("1. Nhap thong tin ca nhan\n");
