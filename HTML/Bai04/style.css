@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.vmenu {
+    list-style-type: none;
+    background-color: lightgray;
+}
+.vmenu li {
+    border-bottom: 1px solid blue;
+    padding: 15px;
+}
+.vmenu li:hover {
+    /* Màu nền bị đổi khi di chuyển chuột qua */
+    background-color: orange;
+}
+
+/* MENU NGANG */
+.hmenu {
+    list-style-type: none;
+    background-color: lightgray;
+    display: flex;
+}
+.hmenu li {
+    padding: 15px;
+    margin-right: 20px;
+}
+.hmenu li:hover {
+    background-color: red;
+}
+/* SUB MENU */
+.smenu {
+    list-style-type: none;
+    background-color: yellow;
+}
+.smenu li {
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+}
+.sub-menu {
+    position: absolute;
+    border: 1px solid #000;
+    left: 0;
+    /* Xuống dưới item cha */
+    top: 100%;
+    background-color: pink;
+    display: none;
+}
+/* Hiển thị sub-menu khi hover qua */
+.smenu li:hover .sub-menu {
+    display: block;
+}

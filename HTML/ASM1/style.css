@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {}
+.main {
+    display: flex;
+}
+/* LEFT */
+.left {
+    width: 80%;
+}
+.left h2 {
+    color: #047289;
+}
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+.item {
+    display: flex;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-right: 15px;
+}
+.item img {
+    margin-right: 15px;
+}
+.item-info h3 {
+    margin-bottom: 10px;
+}
+/* RIGHT */
+.right {
+    width: 20%;
+    background-color: #414343;
+}

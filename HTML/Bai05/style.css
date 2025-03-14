@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: #73d1d1; */
+}
+label {
+    /* chuyển inline -> block để xuống dòng */
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    /* chuyển chuột thành
+     hình bàn tay khi chỉ vào */
+    cursor: pointer;
+}
+button:hover {
+    background-color: pink;
+    font-size: 25px;
+    padding: 30px;
+}
+

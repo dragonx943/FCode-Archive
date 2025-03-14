@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: #c3c3bc;
+    /* chiều rộng website */
+    width: 80%;
+    /* căn nội dung vào giữa */
+    margin: 0 auto;
+}
+.top {
+    background-color: #017d8e;
+    display: flex;
+    /* khoảng các trên dưới 10px, trái phải 0px */
+    padding: 10px 0;
+}
+.menu {
+    /* dồn li lên 1 hàng */
+    display: flex;
+    /* bỏ dấu chấm */
+    list-style: none;
+    margin-left: 20px;
+    /* để dùng được float, 
+    set chiều rộng cho nội dung */
+    width: 70%;
+    /* Nối thông tin sang trái */
+    float: left;
+}
+.menu li {
+    margin: 0 20px;
+}
+.menu li a {
+    color: #ffffff;
+    /* bỏ gạch chân */
+    text-decoration: none;
+}
+.menu li:hover a {
+    /* khi hover qua li, thêm gạch chân và a */
+    text-decoration: underline;
+}
+.tim-kiem {
+    /* để dùng đc float, set chiều rộng cho nội dung */
+    width: 30%;
+    /* nổi thông tin sang phải */
+    float: right;
+}
+.tim-kiem button {
+    padding: 2px 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.header center {
+    background-color: #ffffff;
+}
+.main {
+    display: flex;
+}
+.left {
+    width: 80%;
+    background-color: #ffffff;
+    padding-left: 25px;
+}
+.banner, .banner img {
+    width: 100%;
+}
+.intro {
+    display: flex;
+    margin: 10px 0;
+}
+/* tạo hiệu ứng đổ bóng
+ đỏ khi di chuột qua */
+.intro:hover {
+    box-shadow: 0 0 10px red;
+}
+.intro-info {
+    margin: 0 20px;   
+}
+.intro-info h2 {
+    color: #01515c;
+    margin-bottom: 10px;
+}
+/* đưa 2 bài viết lên 1 hàng */
+.list {
+    display: flex;
+}
+.article {
+    display: flex;
+    border: 1px solid #d0b798;
+    margin-right: 10px;
+}
+.article:hover {
+    box-shadow: 0 0 10px red;
+    /* đổi thành hình chỉ tay */
+    cursor: pointer;
+}
+.article-info {
+    padding: 10px;
+}
+.article-info h3 {
+    color: #d0b798;
+    margin-bottom: 10px;
+}
+.right {
+    width: 20%;
+    background-color: #017d8e;
+}

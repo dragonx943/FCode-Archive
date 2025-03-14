@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: orange;
+}
+.container {
+    width: 80%;
+    /* tự động đưa container 
+    vào giữa màn hình */
+    margin: 0 auto;
+    background-color: pink;
+    padding: 15px;
+    /* Đưa các phần tử 
+    con trực tiếp lên cùng 1 hàng */
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    /* width: 75%; */
+    /*chỉ dùng nếu thẻ cha trực tiếp có display: flex
+     chiếm 3 phần của tổng chiều rộng*/ 
+    flex: 3; 
+    margin-right: 15px;
+    padding: 20px 0;
+    background-color: green;
+}
+.side-bar {
+    /* width: 25%; */
+    flex: 1;
+    padding: 20px 0;
+    background-color: red;
+}
+.footer {
+    background-color: #fff000;
+    text-align: center;
+    padding: 20px;
+}

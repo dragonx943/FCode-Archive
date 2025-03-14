@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .left {
+            width: 30%;
+            background-color: orange;
+            margin: 5px;
+            padding: 10px;
+            /* thả nổi phần tử sang trái */
+            float: left;
+        }
+        .right {
+            width: 30%;
+            background-color: pink;
+            margin: 5px;
+            padding: 10px;
+            /* thả nổi phần tử sang phải */
+            float: right;
+        }
+        .center {
+            width: 30%;
+            background-color: lightblue;    
+            margin: 5px;
+            padding: 10px;
+            float: left;
+        }
+        .footer {
+            /* Xóa bỏ thả nổi theo cả hai chiều*/
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">Box left</div>
+    <div class="center">Box center</div>
+    <div class="right">Box right</div>
+    <div class="footer">Box footer</div>
+</body>
+</html>

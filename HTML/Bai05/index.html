@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Đăng nhập</h2>
+    <!-- Thẻ form -->
+    <form action="" method="POST">
+        <label>Tên đăng nhập:</label>
+        <input type="text" required>
+
+        <label>Mặt khẩu:</label>
+        <input type="password" required>
+
+        <button type="submit">Đăng nhập</button>
+    </form>
+    <h2>Đăng ký</h2>
+    <form action="" enctype="multipart/form-data">
+        <label for="">Tên đăng nhập:</label>
+        <input type="text" name="username" value="thuyvt66" disabled>
+
+        <label for="">Mật khẩu:</label>
+        <input type="password" required placeholder="Mật khẩu 8 ký tự có cả chữ và số">
+
+        <label for="">Email:</label>
+        <input type="email" required>
+
+        <!-- Nếu muốn click 1 radio bỏ chọn radio khác phải đặt cùng 1 giá trị name -->
+        <label for="">Giới tính: </label>
+        <input type="radio" name="gender" value="1"> 
+        <span>Nam</span>
+        <input type="radio" name="gender" value="2" >
+        <span>Nữ</span>
+        <input type="radio" name="gender">
+        <span>Khác</span>
+        <br>
+
+        <label for="">Sở thích</label>
+        <input type="checkbox" name="hobbies">
+        <span>Du lịch</span>
+        <input type="checkbox" name="hobbies">
+        <span>Đọc sách</span>
+
+        <label for="">Ngày sinh:</label>
+        <input type="date">
+        
+        <label for="">Địa chỉ</label>
+        <select>
+            <option value="1">Hà Nội</option>
+            <option value="2">Hải Phòng</option>
+            <option>Vĩnh Phúc</option>
+        </select>
+        <input type="file">
+        <button type="submit">Đăng ký</button>
+    </form>
+
+</body>
+</html>

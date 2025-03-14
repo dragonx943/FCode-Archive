@@ -1,0 +1,23 @@
+h2 {
+    /* thuộc tính văn bản */
+    text-align: center;
+    color: #ffa500;
+}
+
+/* gọi id */
+#tieu-de {
+    font-style: italic;
+    font-weight: bold; 
+    color: #0fcf75;
+    /* Bóng nhòe */
+    text-shadow: 0px 0px 10px rgb(147, 11, 11); ;
+}
+
+/* gọi class */
+.tieu-de {
+    /* Bóng lệch */
+    text-shadow: 10px 10px 10px rgb(255, 200, 0);
+    color: blueviolet;
+    text-decoration: underline; /* bỏ gạch dưới none */
+    background-color: #cdc4bb;
+}
