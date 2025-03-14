@@ -1,3 +1,6 @@
 [submodule "SQL"]
 	path = SQL
 	url = https://github.com/huy19712011/Com2012_SD20305
+[submodule "Java/current"]
+	path = Java/current
+	url = https://github.com/HuyenNK6/SP25_BL2_MOB1024_SD20305
