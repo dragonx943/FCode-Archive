@@ -37,12 +37,12 @@ public class SinhVienService {
     }
     
     public void sapXep() {
-        Comparator<SinhVien> com2 = new Comparator<SinhVien>() {
+        Comparator<SinhVien> com1 = new Comparator<SinhVien>() {
             @Override
             public int compare(SinhVien o1, SinhVien o2) {
                 return o1.getTen().compareTo(o2.getTen());
             }
         };
-        Collections.sort(lstSinhViens, com2);
+        Collections.sort(lstSinhViens, com1);
     }
 }
